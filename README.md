@@ -1,4 +1,4 @@
-# familymapserver
+# familymapserver + companion Android app
 Family Map Server was a final project for my Advanced Programming Concepts class. It involved creating a local server in Java which supported all of the main CRUD restful functions (Create, read, update, delete).
 
 Additionally the project included creating a companion Android app from scratch which connected to the server via http requests and fetched data of fictious users.
