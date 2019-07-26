@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/gradle
+/captures
+.externalNativeBuild
+build.gradle
+familymap.sqlite
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
+/familymapserver/familymapserver/jars

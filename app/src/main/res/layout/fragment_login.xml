@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_table_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginFragment"
+    android:numColumns="1"
+    android:gravity="center"
+    android:verticalSpacing="25dp"
+    android:stretchMode="columnWidth"
+    >
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_server_host_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/serverHostEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/login_server_host_edit_text"
+            android:hint="@string/login_server_host_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_server_port_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/serverPortEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/login_server_port_edit_text"
+            android:hint="@string/login_server_port_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_user_name_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/login_user_name_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_password_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/login_password_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_first_name_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/firstNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/login_first_name_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_last_name_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/lastNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/login_last_name_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_email_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/login_email_edit_text_hint"/>
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_gender_text_view"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            android:paddingTop="5dp"
+            />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/maleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_male_gender_radio_button"
+                android:padding="5dp"/>
+
+            <RadioButton
+                android:id="@+id/femaleRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_female_gender_radio_button"
+                android:padding="5dp"/>
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_span="3">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_sign_in_button"
+                android:layout_weight="1"
+                android:id="@+id/signInButton"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/login_register_button"
+                android:id="@+id/registerButton"/>
+        </LinearLayout>
+
+
+
+    </TableRow>
+
+
+
+</TableLayout>

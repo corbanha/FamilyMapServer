@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">FamilyMapServer</string>
+    <string name="login_server_host_text_view">Server Host:</string>
+    <string name="login_server_host_edit_text_hint">Server Host</string>
+    <string name="login_server_host_edit_text">192.168.254.85</string>
+    <string name="login_server_port_text_view">Server Port:</string>
+    <string name="login_server_port_edit_text">1200</string>
+    <string name="login_server_port_edit_text_hint">Server Port</string>
+    <string name="login_user_name_text_view">User Name:</string>
+    <string name="login_user_name_edit_text_hint">User Name</string>
+    <string name="login_password_text_view">Password:</string>
+    <string name="login_password_edit_text_hint">Password</string>
+    <string name="login_first_name_text_view">First Name:</string>
+    <string name="login_first_name_edit_text_hint">First Name</string>
+    <string name="login_last_name_text_view">Last Name:</string>
+    <string name="login_last_name_edit_text_hint">Last Name</string>
+    <string name="login_email_text_view">Email:</string>
+    <string name="login_email_edit_text_hint">Email</string>
+    <string name="login_male_gender_radio_button">Male</string>
+    <string name="login_female_gender_radio_button">Female</string>
+    <string name="login_sign_in_button">Sign In</string>
+    <string name="login_register_button">Register</string>
+    <string name="login_gender_text_view">Gender:</string>
+    <string name="title_activity_maps">Family Map</string>
+    <string name="title_activity_person">Family Member Info</string>
+    <string-array name="line_colors">
+        <item>Alizarin</item>
+        <item>Carrot</item>
+        <item>Sun flower</item>
+        <item>Emerald</item>
+        <item>Turquoise</item>
+        <item>Peter River</item>
+        <item>Amethyst</item>
+        <item>Wet asphalt</item>
+        <item>Clouds</item>
+    </string-array>
+    <string-array name="map_type">
+        <item>None</item>
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Mixed</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+/build
+/libs
+build.gradle
+Server.iml
+familymap.sqlite-journal
+familymap.sqlite
